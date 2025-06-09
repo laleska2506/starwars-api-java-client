@@ -19,3 +19,40 @@ Este proyecto es una aplicación Java sencilla que consume la API pública de St
 
 ## Estructura del proyecto
 
+```plaintext
+src/
+├── Main.java
+├── StarWarsApiClient.java
+├── Pelicula.java
+├── GestorDePeliculas.java
+peliculas.json
+
+```
+
+## Ejemplo de uso
+
+Al ejecutar el programa, verás en consola información como:
+
+Título: A New Hope
+Director: George Lucas
+Estreno: 1977-05-25
+Introducción: It is a period of civil war...
+
+También puedes ver las películas almacenadas localmente desde `peliculas.json`.
+
+## Ejemplo de archivo `peliculas.json`
+
+```
+json
+[
+  {
+    "Nombre": "Matrix",
+    "FechaDeLanzamiento": 1993,
+    "IncluidoEnElPlan": false,
+    "SumaDeLasEvaluaciones": 0.0,
+    "TotalDeEvaluaciones": 0,
+    "DuracionEnMinutos": 60
+  },
+  ...
+]
+```
